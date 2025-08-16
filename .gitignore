@@ -1044,3 +1044,22 @@ dkms.conf
 *.uf2
 # Raspberry Pi Pico disassembler file
 *.dis
+
+
+# Project-specific build outputs
+Test/
+Test.exe
+*.pdb
+*.ilk
+*.obj
+*.tlog/
+*.lastbuildstate
+*.idb
+*.log
+
+# Resource compilation outputs
+*.res
+*.rc2
+
+# Icon files (optional - uncomment if you don't want to track icon changes)
+# logo.ico
